@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.ShayahmetovRR.Sprint5.Task4.V25.Lib;
+using Tyuiu.ShayahmetovRR.Sprint5.Task5.V24.Lib;
+using System.IO;
 
-namespace Tyuiu.ShayahmetovRR.Sprint5.Task4.V25
+namespace Tyuiu.ShayahmetovRR.Sprint5.Task5.V24
 {
 	internal class Program
 	{
@@ -17,17 +17,17 @@ namespace Tyuiu.ShayahmetovRR.Sprint5.Task4.V25
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* Спринт #5                                                                  *");
 			Console.WriteLine("* Тема: Обработка файлов                                                     *");
-			Console.WriteLine("* Задание #4                                                                 *");
-			Console.WriteLine("* Вариант #25                                                                *");
+			Console.WriteLine("* Задание #5                                                                 *");
+			Console.WriteLine("* Вариант #24                                                                *");
 			Console.WriteLine("* Выполнил: Шаяхметов Р.Р     | АСОиУб 23-1                                  *");
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* УСЛОВИЕ:                                                                   *");
-			Console.WriteLine("* Прочитать значение из txt файла и подставить в формулу                     *");
+			Console.WriteLine("* Прочитать значения из txt файла и найти сумму всех двузначных целых чисел  *");
 			Console.WriteLine("******************************************************************************");
 			Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                           *");
 			Console.WriteLine("******************************************************************************");
 
-			string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask4V25.txt";
+			string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask5V24.txt";
 
 			Console.WriteLine("Данные находятся в файле: " + path);
 
