@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace Tyuiu.ShayahmetovRR.Sprint5.Task5.V24.Test
+namespace Tyuiu.ShayahmetovRR.Sprint5.Task6.V16.Test
 {
 	[TestClass]
 	public class DataServiceTest
@@ -10,7 +10,7 @@ namespace Tyuiu.ShayahmetovRR.Sprint5.Task5.V24.Test
 		[TestMethod]
 		public void TestMethod1()
 		{
-			string path = @"C:\Users\zorg0\source\repos\Tyuiu.ShayahmetovRR.Sprint5\Tyuiu.ShayahmetovRR.Sprint5.Task5.V24\bin\Debug\InPutDataFileTask5V24.txt";
+			string path = @"C:\Users\zorg0\source\repos\Tyuiu.ShayahmetovRR.Sprint5\Tyuiu.ShayahmetovRR.Sprint5.Task6.V16\bin\Debug\InPutDataFileTask6V16.txt";
 
 			FileInfo fileInfo = new FileInfo(path);
 
